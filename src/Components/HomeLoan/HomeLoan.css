@@ -1,0 +1,27 @@
+ul.pros {
+    list-style: none;
+}
+
+ul.pros li:before {
+    content: '✓ ';
+    font-weight: bold;
+}
+
+ul.pros li {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+
+
+.page ul {
+    justify-content: center;
+}
+
+.card-body p {
+    font-size: 12px;
+    color: #888;
+}
+
+.card {
+    box-shadow: 2px 2px 2px #ccc;
+}
